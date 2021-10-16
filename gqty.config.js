@@ -1,4 +1,4 @@
-require('dotenv-flow').config();
+require('dotenv').config();
 
 /**
  * @type {import("@gqty/cli").GQtyConfig}
@@ -15,6 +15,8 @@ const config = {
   javascriptOutput: false,
 };
 
-console.log(`Using "${config.introspection.endpoint}" to generate schema...`);
+console.log(
+  `Using "${config.introspection.endpoint}" to generate schema...`,
+);
 
 module.exports = config;

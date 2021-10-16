@@ -522,7 +522,7 @@
     graphql ">=15.6"
     lodash "^4.17.21"
 
-"@gqty/cli@^2.0.1":
+"@gqty/cli@^2.1.0":
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/@gqty/cli/-/cli-2.1.0.tgz#974059a4950706d8a89c9e708e13a4292258089b"
   integrity sha512-LRtzyI1zQTuAB+lvBUDA3kMF+urKXdVosPugcVhg14U5+/LoIjAx17sHyBOaAIEn/rxwS62OkxCqYAIfizSANQ==
@@ -1764,6 +1764,11 @@ dotenv-flow@3.2.0:
   integrity sha512-GEB6RrR4AbqDJvNSFrYHqZ33IKKbzkvLYiD5eo4+9aFXr4Y4G+QaFrB/fNp0y6McWBmvaPn3ZNjIufnj8irCtg==
   dependencies:
     dotenv "^8.0.0"
+
+dotenv@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-10.0.0.tgz#3d4227b8fb95f81096cdd2b66653fb2c7085ba81"
+  integrity sha512-rlBi9d8jpv9Sf1klPjNfFAuWDjKLwTIJJ/VxtoTwIR6hnZxcEOQCZg2oIL3MWBYw5GpUDKOEnND7LXTbIpQ03Q==
 
 dotenv@^8.0.0:
   version "8.6.0"
